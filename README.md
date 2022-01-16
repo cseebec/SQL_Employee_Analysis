@@ -2,7 +2,7 @@
 Using a sql query to answer questions about employee data. 
 
 ##  ERD Table 
-The first thing I did to tackle this problem was create an ERD table so that I could visualize connections between the CSV files.
+The first thing I did to tackle this problem was create an ERD table so that I could visualize connections between the CSV files
 
 # Data Types
 To create the ERD tables I first defined the Data Types of each column. This was relatively straightforward  for most columns with the exception of: birth_date and hire_date in the employees csv file. To read these columns into SQL as data type DATE their format had to be changed to a custom format in excel of yyyy-mm-dd
